@@ -26,6 +26,7 @@ const licenseChoices = [
   "MIT License",
   "Boost Software License 1.0",
   "The Unlicense",
+  "No License",
 ];
 
 // TODO: Create a function to write README file
