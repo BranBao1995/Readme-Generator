@@ -19,7 +19,7 @@ function generate(data) {
 ## Usage\n${data.usage}\n\n
 ## Contributing\n${data.contribution}\n\n
 ## Tests\n${data.test}\n\n
-## Questions\n-[Github](https://www.github.com/${data.username})
+## Questions\n - [Github](https://www.github.com/${data.username})
 `;
 }
 
