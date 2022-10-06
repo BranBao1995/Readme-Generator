@@ -2,7 +2,7 @@
 
 
 ## Description
-test
+tes
 
 
 ## Installation
@@ -14,21 +14,19 @@ test
 
 
 ## Contributing
-tet
+test
 
 
 ## Tests
 test
 
 
-## License
-![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg) GNU LESSER GENERAL PUBLIC LICENSE
+## License ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
+Mozilla Public License Version 2.0
 
-[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
+[https://choosealicense.com/licenses/mpl-2.0/](https://choosealicense.com/licenses/mpl-2.0/)
 
-Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
-Everyone is permitted to copy and distribute verbatim copies
-of this license document, but changing it is not allowed.
+Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different erms and without source code for files added in the larger work.
 
 
 ## Questions
