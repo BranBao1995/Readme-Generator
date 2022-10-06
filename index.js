@@ -17,6 +17,7 @@ const questions = [
   "What is the email address?",
 ];
 
+// an array for license options
 const licenseChoices = [
   "GNU AGPLv3",
   "GNU GPLv3",
@@ -46,6 +47,7 @@ function init() {
       { type: "input", message: questions[3], name: "usage" },
       { type: "input", message: questions[4], name: "contribution" },
       { type: "input", message: questions[5], name: "test" },
+      // for the question that prompts the user to choose a license, use type "list"
       {
         type: "list",
         message: questions[6],
@@ -56,7 +58,8 @@ function init() {
       { type: "input", message: questions[8], name: "email" },
     ])
     .then((response) => {
-      writeToFile("README.md", markdownJS.generate(response));
+      // write file to a different folder
+      writeToFile("./sample_readme/README.md", markdownJS.generate(response));
     });
 }
 
