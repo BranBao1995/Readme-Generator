@@ -2,7 +2,16 @@
 
 
 ## Description
-tes
+test
+
+
+## Table of Content
+ - [Installation](#installation)
+ - [Usage](#usage)
+ - [Contributing](#contributing)
+ - [Tests](#tests)
+ - [License](#license)
+ - [Questions](#questions)
 
 
 ## Installation
@@ -21,12 +30,28 @@ test
 test
 
 
-## License ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)
-Mozilla Public License Version 2.0
+## License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+MIT License
 
-[https://choosealicense.com/licenses/mpl-2.0/](https://choosealicense.com/licenses/mpl-2.0/)
+[https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/)
 
-Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different erms and without source code for files added in the larger work.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 ## Questions

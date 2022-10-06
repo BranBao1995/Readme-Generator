@@ -154,9 +154,9 @@ means.`;
 
 // TODO: Create a function to generate markdown for README
 function generate(data) {
-  // console.log(`${data.title}\n=================\n${data.description}`);
   return `# ${data.title}\n\n
 ## Description\n${data.description}\n\n
+## Table of Content\n - [Installation](#installation)\n - [Usage](#usage)\n - [Contributing](#contributing)\n - [Tests](#tests)\n - [License](#license)\n - [Questions](#questions)\n\n
 ## Installation\n${data.installation}\n\n
 ## Usage\n${data.usage}\n\n
 ## Contributing\n${data.contribution}\n\n
