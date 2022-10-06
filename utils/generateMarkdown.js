@@ -1,6 +1,39 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+
+function renderLicenseBadge(license) {
+  switch (license) {
+    case "GNU AGPLv3":
+      return "![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)";
+
+    case "GNU GPLv3":
+      return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+
+    case "GNU LGPLv3":
+      return "![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)";
+
+    case "Mozilla Public License 2.0":
+      return "![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)";
+
+    case "Apache License 2.0":
+      return "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+
+    case "MIT License":
+      return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+
+    case "Boost Software License 1.0":
+      return "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
+
+    case "The Unlicense":
+      return "![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
+
+    case "No License":
+      return "";
+
+    default:
+      return "";
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -128,9 +161,9 @@ function generate(data) {
 ## Usage\n${data.usage}\n\n
 ## Contributing\n${data.contribution}\n\n
 ## Tests\n${data.test}\n\n
-## License\n${renderLicenseLink(data.license)}\n\n${renderLicenseSection(
+## License\n${renderLicenseBadge(data.license)} ${renderLicenseLink(
     data.license
-  )}\n\n
+  )}\n\n${renderLicenseSection(data.license)}\n\n
 ## Questions\n - [Github](https://www.github.com/${
     data.username
   })\n - You can ask additional questions via email [${data.email}](${

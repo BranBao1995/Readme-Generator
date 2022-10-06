@@ -14,7 +14,7 @@ test
 
 
 ## Contributing
-test
+tet
 
 
 ## Tests
@@ -22,7 +22,7 @@ test
 
 
 ## License
-GNU AFFERO GENERAL PUBLIC LICENSE
+![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg) GNU LESSER GENERAL PUBLIC LICENSE
 
 [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
 
